@@ -59,9 +59,7 @@ header div img{
     min-height: 100px;
     max-height: 100px;
 }
-
 /* -----------------------------Creacion del slide en galeria----------------------------------- */
-
 .Galeria-slider-frame{
     width: 90%;
     margin: 0 auto;
@@ -98,10 +96,7 @@ header div img{
     75%{margin-left: -300%;}
     100%{margin-left: -300%;}
 }
-
 /* --------------------------Seccion de informacion de la empresa-----------------------*/
-
-
 .Contenedor-info{
     background-color: #ffffffd7;
 }
@@ -116,7 +111,6 @@ header div img{
     align-content: center;
     overflow: hidden;
 }
-
 .Contenedor-info div h1{
   display: flex;
   justify-content: center;
@@ -156,10 +150,7 @@ header div img{
     overflow: hidden;
     line-height: normal;
 }
-
-
 /* ------------------------Seccion de Servicos--------------------------------------------------------- */
-
 .titulo-4{
   display: flex;
   justify-content: center;
@@ -215,7 +206,6 @@ header div img{
     "contenedor-titulo-cajas contenedor-titulo-cajas contenedor-titulo-cajas"
     "contenedor-img-cajas contenedor-img-cajas contenedor-img-cajas";
 }
-  
 .contenedor-titulo {
     width: 100%;
     height: auto;
@@ -290,11 +280,9 @@ header div img{
     height: 100%;
 }
 
-
 @keyframes galeria-img-coop{
 
     0%{transform: translateX(0%);}
-
     100%{transform: translateX(-90%);}
 }
 
@@ -317,7 +305,6 @@ header div img{
     font-size: 1.5rem;
     text-align: center;
 }
-  
 .contenedor-img-cajas{ 
     grid-area: contenedor-img-cajas;
     justify-items: start;
@@ -352,6 +339,5 @@ header div img{
 @keyframes galeria-img-cajas{
 
     0%{transform: translateX(0%);}
-
     100%{transform: translateX(-100%);}
 }
