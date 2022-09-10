@@ -268,8 +268,8 @@ header div img{
     animation: galeria-img-coop 30s 5s infinite alternate linear;
 }
 .contenedor-img-coop li{
-    width: 260px;
-    height: 200px;
+    width: 300px;
+    height: 230px;
     margin-left: 20px;
     margin-right: 100px;
     
@@ -280,10 +280,11 @@ header div img{
     height: 100%;
 }
 
+
 @keyframes galeria-img-coop{
 
     0%{transform: translateX(0%);}
-    100%{transform: translateX(-90%);}
+    100%{transform: translateX(-100%);}
 }
 
 .contenedor-titulo-cajas { 
@@ -321,11 +322,11 @@ header div img{
     align-items: center;
     justify-content: flex-start;
 
-    animation: galeria-img-cajas 40s 10s infinite alternate linear;
+    animation: galeria-img-cajas 30s 10s infinite alternate linear;
 }
 .contenedor-img-cajas li{
-    width: 300px;
-    height: 200px;
+    width: 320px;
+    height: 270px;
     margin-left: 10px;
     margin-right: 100px;
     
@@ -336,8 +337,10 @@ header div img{
     height: 100%;
 }
 
+
 @keyframes galeria-img-cajas{
 
     0%{transform: translateX(0%);}
     100%{transform: translateX(-100%);}
 }
+/* -------------------------------------Seccion de socias----------------------- */
