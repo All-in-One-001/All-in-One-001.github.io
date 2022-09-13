@@ -268,8 +268,8 @@ header div img{
     animation: galeria-img-coop 30s 5s infinite alternate linear;
 }
 .contenedor-img-coop li{
-    width: 350px;
-    height: 230px;
+    width: 320px;
+    height: 260px;
     margin-left: 20px;
     margin-right: 100px;
     
@@ -326,7 +326,7 @@ header div img{
 }
 .contenedor-img-cajas li{
     width: 320px;
-    height: 270px;
+    height: 260px;
     margin-left: 10px;
     margin-right: 100px;
     
